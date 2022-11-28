@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans:wght@500&family=Open+Sans:wght@400;600&family=Poppins:wght@400;500;600;700&family=Roboto&family=Volkhov:wght@700&display=swap" rel="stylesheet">
+    <title>Travel</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <nav class="nav">
+                    <div class="nav__logo">
+                        <img src="./img/Logo.svg" alt="logo">
+                    </div>
+                    <ul class="nav__list">
+                        <li><a href="#">Desitnations</a></li>
+                        <li><a href="#">Hotels</a></li>
+                        <li><a href="#">Flights</a></li>
+                        <li><a href="#">Bookings</a></li>
+                    </ul>
+                    <ul class="nav__login">
+                        <li><a href="#" id="open_pop_up">Login</a></li>
+                        <li class="btn--login" id="open_pop_up-singup"><a href="#">Sign up</a></li>
+                    </ul>
+                    <div class="pop_up" id="pop_up">
+                        <div class="pop_up_container">
+                            <div class="pop_up_body" id="pop_up_body">
+                                <p>LOGIN</p>
+                                <form action="">
+                                    <input type="text" placeholder="Username">
+                                    <input type="text" placeholder="Password">
+                                    <button>LOGIN</button>
+                                </form>
+                                <div class="pop_up_close" id="pop_up_close">&#10006</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pop_up-singup" id="pop_up-singup">
+                        <div class="pop_up_container">
+                            <div class="pop_up_body-singup" id="pop_up_body-singup">
+                                <p>Sing Up</p>
+                                <form action="">
+                                    <input type="text" placeholder="Login">
+                                    <input type="text" placeholder="E-mail">
+                                    <input type="text" placeholder="Password">
+                                    <button>Sing Up</button>
+                                </form>
+                                <div class="pop_up_close-singup" id="pop_up_close-singup">&#10006</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="form__group">
+                        <div class="select__wrapper">
+                            <select name="select__category" id="" class="select">
+                                <option value="1">RU</option>
+                                <option value="2">EN</option>
+                            </select>
+                        </div>
+                    </div> -->
+                </nav>
+            </div>
+            <div class="header__row">
+                <div class="header__content">
+                    <div class="header__badge">Best Destinations around the world</div>
+                    <h1 class="header__title">Travel, enjoy and live a new and full life</h1>
+                    <div class="header__text">Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</div>
+                    <div class="header__buttons">
+                        <a href="#" class="header__btn">Find out more</a>
+                        <a href="#" class="header__play">
+                            <div class="play"></div>
+                            Play Demo
+                        </a>
+                    </div>
+                </div>
+                <div class="header__img">
+                    <img src="./img/header.svg" alt="header">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="category">
+            <div class="container">
+                <div class="category__row">
+                    <div class="category__content">
+                        <h2 class="category__title">CATEGORY</h2>
+                        <div class="category__text">We Offer Best Services</div>
+                    </div>
+                    <div class="category__cards">
+                        <div class="card">
+                            <img src="./img/main/card1.svg" alt="">
+                            <h3 class="card__title">Calculated Weather </h3>
+                            <div class="card__text">Built Wicket longer admire do barton vanity itself do in it.</div>
+                        </div>
+                        <div class="card card--after">
+                            <img src="./img/main/card2.svg" alt="">
+                            <h3 class="card__title">Best Flights </h3>
+                            <div class="card__text">Engrossed listening. Park gate sell they west hard for the.</div>
+                        </div>
+                        <div class="card">
+                            <img src="./img/main/card3.svg" alt="">
+                            <h3 class="card__title">Local Events</h3>
+                            <div class="card__text">Barton vanity itself do in it. Preferd to men it engrossed listening. </div>
+                        </div>
+                        <div class="card">
+                            <img src="./img/main/card4.svg" alt="">
+                            <h3 class="card__title">Customization </h3>
+                            <div class="card__text">We deliver outsourced aviation services for military customers</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="selling">
+            <div class="container">
+                <div class="selling__row">
+                    <div class="selling__content">
+                        <h2 class="selling__badge">Top Selling</h2>
+                        <div class="selling__title">Top Destinations</div>
+                    </div>
+                    <div class="selling__tickets">
+                        <a href="https://www.tez-tour.com/excursionTourEach.html?id=7000066" target="_blank"><div class="ticket">
+                            <img src="./img/main/selling/ticket1.jpg" alt="">
+                            <div class="ticket__info">
+                                <div class="ticket-place">
+                                    <h3>Rome, Italty</h3>
+                                    <p>$5,42k</p>
+                                </div>
+                                <div class="ticket-days">
+                                    <img src="./img/main/selling/days.svg" alt="">
+                                    <p>10 Days Trip</p>
+                                </div>
+                            </div>
+                        </div></a>
+                        <a href="https://www.1001tur.ru/uk/tury/hot/london/" target="_blank">
+                        <div class="ticket">
+                            <img src="./img/main/selling/ticket2.jpg" alt="">
+                            <div class="ticket__info">
+                                <div class="ticket-place">
+                                    <h3>London, UK</h3>
+                                    <p>$4.2k</p>
+                                </div>
+                                <div class="ticket-days">
+                                    <img src="./img/main/selling/days.svg" alt="">
+                                    <p>12 Days Trip</p>
+                                </div>
+                            </div>
+                        </div></a>
+                        <a href="https://sozvezdie-tour.ru/cat/10-dnej/tury/evropa" target="_blank">
+                        <div class="ticket">
+                            <img src="./img/main/selling/ticket3.jpg" alt="">
+                            <div class="ticket__info">
+                                <div class="ticket-place">
+                                    <h3>Full Europe</h3>
+                                    <p>$15k</p>
+                                </div>
+                                <div class="ticket-days">
+                                    <img src="./img/main/selling/days.svg" alt="">
+                                    <p>28 Days Trip</p>
+                                </div>
+                            </div>
+                        </div></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="easyandfast">
+            <div class="container">
+                <div class="easyandfast__row">
+                    <div class="easyandfast__content">
+                        <h2 class="easyandfast__badge">Easy and Fast</h2>
+                        <div class="easyandfast__title">Book your next trip 
+                            in 3 easy steps</div>
+                            <div class="easyandfast__steps">
+                                <div class="step">
+                                    <img src="./img/main/easyandfast/step1.svg" alt="step1">
+                                    <div class="step__content">
+                                        <div class="step__title">Choose Destination</div>
+                                        <div class="step__text">Lorem ipsum dolor sit amet, consectetur 
+                                            adipiscing elit. Urna, tortor tempus. </div>
+                                    </div>
+                                </div>
+
+                                <div class="step">
+                                    <img src="./img/main/easyandfast/step2.svg" alt="step1">
+                                    <div class="step__content">
+                                        <div class="step__title">Make Payment</div>
+                                        <div class="step__text">Lorem ipsum dolor sit amet, consectetur 
+                                            adipiscing elit. Urna, tortor tempus. </div>
+                                    </div>
+                                </div>
+
+                                <div class="step">
+                                    <img src="./img/main/easyandfast/step3.svg" alt="step1">
+                                    <div class="step__content">
+                                        <div class="step__title">Reach Airport on Selected Date</div>
+                                        <div class="step__text">Lorem ipsum dolor sit amet, consectetur 
+                                            adipiscing elit. Urna, tortor tempus. </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="easyandfast__trip">
+                        <div class="trip">
+                            <img class="trip_greece" src="./img/main/easyandfast/trip-img.jpg" alt="">
+                            <div class="trip__content">
+                                <div class="trip__title">Trip To Greece</div>
+                                <div class="trip__date">14-29 June | by Robbin joseph</div>
+                                <div class="trip__icon">
+                                    <img src="./img/main/easyandfast/icon1.svg" alt="">
+                                    <img src="./img/main/easyandfast/icon2.svg" alt="">
+                                    <img src="./img/main/easyandfast/icon3.svg" alt="">
+                                </div>
+                                <div class="trip__row">
+                                    <div class="trip__people">
+                                       <img src="./img/main/easyandfast/people.svg" alt="">
+                                       <p>24 people going</p>
+                                    </div>
+                                    <div class="trip__like">
+                                        <img src="./img/main/easyandfast/trip-like.svg" alt="like">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ongoing">
+                            <div class="ongoing__img">
+                                <img src="./img/main/easyandfast/ongoing-img.jpg" alt="img">
+                            </div>
+                            <div class="omgoing__content">
+                                <div class="ongoing__badge">Ongoing</div>
+                                <div class="ongoing__title">Trip to rome</div>
+                                <div class="ongoing__completed">
+                                    <p class="interests">40%</p>
+                                    <p class="text">completed</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials">
+            <div class="container">
+                <div class="testimonials__row">
+                    <div class="testimonials__content">
+                        <div class="testimonials__badge">Testimonials</div>
+                        <div class="testimonials__title">What people say about Us.</div>
+                        <div class="testimonials__slider">
+                            <img src="./img/main/testimonials/Ellipse1.svg" alt="">
+                            <img src="./img/main/testimonials/Ellipse2.svg" alt="">
+                            <img src="./img/main/testimonials/Ellipse3.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="testimonials__review">
+                        <div class="review__cardup">
+                            <div class="review__cardup-text">
+                                <p>“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
+                            </div>
+                            <h2 class="review__cardup-name">Chris Thomas</h2>
+                            <div class="review__cardup-post">CEO of Red Button</div>
+                        </div>
+                        <div class="review__carddown">
+                            <div class="review__avatar">
+                                <img src="./img/main/testimonials/avatar.svg" alt="">
+                            </div>
+                            <div class="review__carddown-text">
+                                <p>“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
+                            </div>
+                            <h2 class="review__carddown-name">Mike taylor</h2>
+                            <div class="review__carddown-post">Lahore, Pakistan</div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </section>
+        <section class="brand">
+            <div class="container">
+                <div class="brand__row">
+                    <img src="./img/main/brand/axon.svg" alt="">
+                    <img src="./img/main/brand/jetstar.svg" alt="">
+                    <img src="./img/main/brand/expedia.svg" alt="">
+                    <img src="./img/main/brand/qantas.svg" alt="">
+                    <img src="./img/main/brand/alitalia.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="subscribe">
+            <div class="container">
+                <div class="subscribe__row">
+                <div class="subscribe__content">
+                     <h2 class="subscribe__title">Subscribe to get information, latest news and other interesting offers about Cobham</h2>
+                     <form action="#" class="subscribe-form">
+                         <div class="custom-input">
+                         <input type="email" class="subscribe-form__input" placeholder="Your email">
+                         <button class="subscribe-form__btn">Subscribe</button>
+                        </div>
+                     </form>
+                </div>
+            </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__row">
+                    <div class="footer__logo">
+                        <h2 class="logo">Jadoo.</h2>
+                        <div class="footer__text">Book your trip in minute, get full Control for much longer.</div>
+                    </div>
+                    <div class="footer__nav">
+                        <div class="footer__nav-menu">
+                            <h4 class="footer__title">Company</h4>
+                            <ul>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Mobile</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__nav-menu">
+                            <h4 class="footer__title">Contact</h4>
+                            <ul>
+                                <li><a href="#">Help/FAQ</a></li>
+                                <li><a href="#">Press</a></li>
+                                <li><a href="#">Affilates</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__nav-menu">
+                            <h4 class="footer__title">More</h4>
+                            <ul>
+                                <li><a href="#">Airlinefees</a></li>
+                                <li><a href="#">Airline</a></li>
+                                <li><a href="#">Low fare tips</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__app">
+                        <div class="footer__socials">
+                            <a href="https://facebook.com" target="_blank">
+                            <div class="footer__facabook">
+                                <img src="./img/main/footer/facebook.svg" alt="facebook">
+                            </div>
+                        </a>
+                        <a href="https://instagram.com/" target="_blank">
+                            <div class="footer__inst">
+                                <img src="./img/main/footer/instagram.svg" alt="inst">
+                            </div>
+                        </a>
+                        <a href="https://twitter.com/?lang=ru" target="_blank">
+                            <div class="footer__twitter">
+                                <img src="/img/main/footer/twitter.svg" alt="twitter">
+                            </div>
+                        </a>
+                        </div>
+                        <div class="footer__store">
+                            <h3 class="footer__store-title">Discover our app</h3>
+                            <div class="footer__store-shop">
+                                <a href="https://play.google.com/store/games?hl=ru&gl=US" target="_blank"><img src="./img/main/footer/google-play.svg" alt="google"></a>
+                                <a href="https://www.apple.com/ru/app-store/" target="_blank"><img src="./img/main/footer/play-store.svg" alt="apple"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__site">
+                    <a href="#">All rights reserved@jadoo.co</a>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="./js/popup.js"></script>
+</body>
+</html>
